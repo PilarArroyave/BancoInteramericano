@@ -1,8 +1,6 @@
 @font-face {
-	font-family: 'gotham';
-	src: url('/assets/fonts/Gotham-Thin.otf') format('truetype');
-	font-weight: bold;
-	font-style: bold;
+	font-family: 'esteban';
+	src: url('/assets/fonts/Esteban-Regular.ttf') format('truetype');
 }
 
 .navContainer{
@@ -35,10 +33,11 @@
 	background-color: rgba(23,97,160,1);
 	text-decoration: none;	
 	font-family: "esteban";
-	font-size: 12pt;
+	border-radius: 5px;
+	font-size: 14pt;
 	height: 100%;
 	margin: 0px 10px 5px;
-	padding: 5px 10px;
+	padding: 6px 15px;
 	float: right;
 	align-self: center;
 	text-align: center;
@@ -60,10 +59,10 @@
 
 .menu img{
 	text-align: center;
-	width: auto;
+	width: 280px;
 	float: left;
-	margin: 8px 5px 0px;
-	padding: 0px;
+	margin: 6px 0px 8px;
+	padding: 5px;
 	cursor: default;
 }
 
@@ -77,9 +76,9 @@
 .menu ul li a{
 	color: white;
 	font-family: "esteban";
-	font-size: 12pt;
+	font-size: 14pt;
 	height: 100%;	
-	margin: 15px 10px 0px;
+	margin: 15px 5px 0px;
 	padding: 0px;
 	float: left;
 	align-self: center;
