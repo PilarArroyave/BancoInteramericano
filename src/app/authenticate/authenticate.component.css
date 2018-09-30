@@ -1,0 +1,40 @@
+.authenticateForm{
+    background-color: rgba(23,97,160,0.7);    
+    border-radius: 10px;
+    text-align: center;
+    width: 40%;
+    margin: 100px;
+    padding: 40px;    
+}
+
+form{    
+    display: block; 
+    text-align: center;
+    justify-content: center;
+    width: auto;
+}
+
+form input{
+    font-family: "esteban";
+    font-size: 13pt;
+    color: rgba(19, 37, 51, 0.829);
+    display: inline-block;
+    width: 300px;
+    height: auto;
+    margin: 20px;
+    padding: 5px 10px;    
+}
+
+button{
+    font-family: "esteban";
+    font-size: 13pt;
+    background-color: rgba(19, 37, 51, 1);
+    border-color:  rgba(19, 37, 51, 0.8);
+    color: white;
+    display: inline-block;
+    border-radius: 5px;    
+    width: 100px;
+    height: auto;
+    margin: 20px;
+    padding: 5px;  
+}
