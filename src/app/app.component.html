@@ -2,8 +2,14 @@
   <nav class = "user">
     <ul>
       <li><a routerLink="/login">Autenticación</a></li> 
-      <li><a routerLink="/register">Registro</a></li>
+      <li><a routerLink="/register">Registro</a></li>      
     </ul>
+    <select >
+      <option value={{country.code}} *ngFor="let country of countries" > {{country.name}} </option>         
+    </select>     
+    <img src="../assets/images/flags/blank.gif" class="flag flag-co" alt="Colombia" />   
+    <!--<img src="../assets/images/flags/blank.gif" class="flag flag-{{country.code}}" alt={{country.name}} />!-->
+    
   </nav>
 	<nav class = "menu">
     <a class="navbar-brand" href="#">

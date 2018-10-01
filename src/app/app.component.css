@@ -18,12 +18,50 @@
 	display: inline-block;
 	margin: 0px;
 	padding: 0px;
-	float: left;	
+	float: right;	
+}
+
+.user select{
+	background-color: rgb(19, 37, 51);
+	text-align: center;
+	border: none;
+	font-family: "esteban";
+	font-size: 13pt;
+	color: white;
+	width: 120px;	
+	height: 35px;
+	margin: 0px 0px 5px;
+	padding: 5px 15px;
+	float: right;
+	-moz-appearance: none;
+	-webkit-appearance: none;
+	appearance: none;
+}
+
+.user select option{
+	text-align: center;
+	font-family: "esteban";
+	font-size: 13pt;
+	width: auto;
+	float: right;
+	margin: 0px 10px 5px;
+	padding: 6px 15px;
+}
+
+.user img{
+	text-align: center;
+	width: 1px;
+	height: 1px;
+	float: right;
+	margin: 6px 0px 8px;
+	padding: 5px;
+	cursor: default;
 }
 
 .user ul{
 	list-style: none;
 	text-decoration: none;
+	width: auto;
 	margin: 8px;
 	padding: 0px;
 }

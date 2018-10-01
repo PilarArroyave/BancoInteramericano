@@ -26,7 +26,7 @@ form input{
     font-size: 13pt;
     color: rgba(19, 37, 51, 0.829);
     display: inline-block;
-    width: 300px;
+    width: 40%;
     height: auto;
     margin: 20px;
     padding: 5px 10px;    
@@ -40,8 +40,8 @@ button{
     color: white;
     display: inline-block;
     border-radius: 5px;    
-    width: 100px;
+    width: auto;
     height: auto;
     margin: 20px;
-    padding: 5px;  
+    padding: 5px 20px;  
 }
