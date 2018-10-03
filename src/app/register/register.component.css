@@ -1,6 +1,7 @@
 .registerForm{
     background-color: rgba(23,97,160,0.7);
-    margin: 100px;
+    width: 60%;
+    height: auto;
     padding: 40px;
     text-align: center;
 }
@@ -10,8 +11,19 @@
     margin: auto;
     padding: auto;
     text-align: center;
+    font-family: Arial;
 }
 
 .formulario{
-    text-align: center;
+    width:20px;
+}
+
+.botoncito{
+  background-color: #eee;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 4px;
+  cursor: pointer;
+  cursor: hand;
+  font-family: Arial;
 }
