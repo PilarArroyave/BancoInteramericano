@@ -1,7 +1,9 @@
 .registerForm{
     background-color: rgba(23,97,160,0.7);
-    width: 60%;
+    width: 50%;
     height: auto;
+    margin-right: auto;
+    margin-left: auto;
     padding: 40px;
     text-align: center;
 }
