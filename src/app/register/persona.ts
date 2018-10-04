@@ -1,9 +1,11 @@
 export class Persona {
-    Nombre: string;
     Documento: string;
+    Pais: string;
+    Nombre: string;
+    Contrasena: string;
     Email: string;
     Telefono: string;
-    Direccion: string;
     FechaNacimiento: Date;
-    Contrasena: string;
+    Direccion: string;
+    
 }
