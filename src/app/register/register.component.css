@@ -1,5 +1,6 @@
 .registerForm{
     background-color: rgba(23,97,160,0.7);
+    border-radius: 10px;
     width: 50%;
     height: auto;
     margin: 80px;
@@ -7,24 +8,56 @@
     text-align: center;
 }
 
-.crearr{
-    color: white;
-    margin: auto;
-    padding: auto;
-    text-align: center;
+h2{
     font-family: Arial;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    margin: 20px;
+}
+    
+.formulario{
+    width:100%;
+    margin: 15px;
+    height: auto;
+    display: inline-block;
+    text-align: center;
+    clear: both;   
 }
 
-.formulario{
-    width:20px;
+.form-group{
+    width: 100%;
+    margin: 10px 5px; 
+    display: inline-block;   
+    text-align: center;
+    clear: both;
+}
+
+.form-group label{
+    text-align: right;
+    float: left;
+    display: inline-block;
+    width: 25%;
+    margin: 10px 5px;
+    color: white;
+}
+
+.form-group input{
+    width: 60%;
+    float: left;
+    display: inline-block;
 }
 
 .botoncito{
-  background-color: #eee;
-  border: none;
-  padding: 5px 10px;
-  border-radius: 4px;
-  cursor: pointer;
-  cursor: hand;
-  font-family: Arial;
+    background-color: rgba(19, 37, 51, 1);
+    border-color:  rgba(19, 37, 51, 0.8);
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 4px;
+    cursor: pointer;
+    cursor: hand;
+    font-family: Arial;
+    display: inline-block;
+    margin: 10px;
 }
