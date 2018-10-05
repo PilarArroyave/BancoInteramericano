@@ -3,35 +3,35 @@
     <h2>Crear cuenta</h2>
     <div class="form-group">
       <label for="Documento">Documento</label>
-      <input type="text" name="documento" [(ngModel)]="persona.Documento" class="form-control" placeholder="Documento" required>
+      <input type="text" name="documento" [(ngModel)]="persona.Documento" class="form-control" placeholder="Ingrese su  documento" required>
     </div>
     <div class="form-group">
-      <label for="Pais">Pais</label>
-      <input type="text" name="pais" [(ngModel)]="persona.Pais" class="form-control" placeholder="Pais" required>
+      <label for="Pais">País</label>
+      <input type="text" name="pais" [(ngModel)]="persona.Pais" class="form-control" placeholder="Ingrese su país" required>
     </div>
     <div class="form-group">
-      <label for="Nombre">Nombre Completo</label>
-      <input type="text" name="nombre" [(ngModel)]="persona.Nombre" class="form-control" placeholder="Nombre Completo" required>
+      <label for="Nombre">Nombre completo</label>
+      <input type="text" name="nombre" [(ngModel)]="persona.Nombre" class="form-control" placeholder="Ingrese su nombre completo" required>
     </div>
     <div class="form-group">
       <label for="Contraseña">Contraseña</label>
-      <input type="password" name="contrasena" [(ngModel)]="persona.Contrasena" class="form-control" placeholder="Contraseña" required minlength="8">
+      <input type="password" name="contrasena" [(ngModel)]="persona.Contrasena" class="form-control" placeholder="Ingrese su contraseña" required minlength="8">
     </div>
     <div class="form-group">
       <label for="Email">Email</label>
-      <input type="email" name="email" [(ngModel)]="persona.Email" class="form-control" placeholder="Correo Electronico" required>
+      <input type="email" name="email" [(ngModel)]="persona.Email" class="form-control" placeholder="Ingrese su correo electrónico" required>
     </div>
     <div class="form-group">
-      <label for="Telefono">Telefono</label>
-      <input type="value" name="telefono" [(ngModel)]="persona.Telefono" class="form-control" placeholder="Ingrese su telefono" required>
+      <label for="Telefono">Teléfono</label>
+      <input type="value" name="telefono" [(ngModel)]="persona.Telefono" class="form-control" placeholder="Ingrese su teléfono" required>
     </div>
     <div class="form-group">
-      <label for="Fecha">Fecha Nacimiento</label>
+      <label for="Fecha">Fecha de nacimiento</label>
       <input type="date" name="fechaNacimiento" [(ngModel)]="persona.FechaNacimiento" class="form-control" required>
     </div>
     <div class="form-group">
       <label for="Direccion">Dirección</label>
-      <input type="text" name="direccion" [(ngModel)]="persona.Direccion" class="form-control" placeholder="Dirección" required>
+      <input type="text" name="direccion" [(ngModel)]="persona.Direccion" class="form-control" placeholder="Ingrese su dirección" required>
     </div>
     <button (click)="guardarResgistro()" class="botoncito">Registrar</button>
     

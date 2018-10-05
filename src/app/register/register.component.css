@@ -1,5 +1,5 @@
 .registerForm{
-    background-color: rgba(23,97,160,0.7);
+    background-color: rgba(23,97,160,0.8);
     border-radius: 10px;
     width: 50%;
     height: auto;
@@ -9,11 +9,9 @@
 }
 
 h2{
-    font-family: Arial;
+    font-family: "esteban";
     font-weight: bold;
     color: white;
-    text-align: center;
-    margin: 20px;
 }
     
 .formulario{
@@ -27,7 +25,7 @@ h2{
 
 .form-group{
     width: 100%;
-    margin: 10px 5px; 
+    margin: 20px 5px 0px; 
     display: inline-block;   
     text-align: center;
     clear: both;
@@ -36,28 +34,37 @@ h2{
 .form-group label{
     text-align: right;
     float: left;
-    display: inline-block;
-    width: 25%;
-    margin: 10px 5px;
+    width: 28%;
+    height: auto;
+    margin: 5px 5px 0px 15px;
+    padding: 5px 10px;
+    font-family: "esteban";
+    font-size: 13pt;
+    font-weight: lighter;
     color: white;
 }
 
 .form-group input{
     width: 60%;
+    height: auto;
     float: left;
-    display: inline-block;
+    font-family: "esteban";
+    font-size: 13pt;
+    color: rgba(19, 37, 51, 0.829);
+    margin: 5px;
+    padding: 5px 10px;
 }
 
 .botoncito{
     background-color: rgba(19, 37, 51, 1);
     border-color:  rgba(19, 37, 51, 0.8);
     color: white;
-    border: none;
-    padding: 5px 10px;
-    border-radius: 4px;
+    border-radius: 5px;
     cursor: pointer;
     cursor: hand;
-    font-family: Arial;
+    font-family: "esteban";
+    font-size: 13pt;
     display: inline-block;
-    margin: 10px;
+    margin: 20px;
+    padding: 5px 20px;
 }
